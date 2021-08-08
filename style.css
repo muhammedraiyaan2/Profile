@@ -1,0 +1,38 @@
+.heading{
+    text-align: center;
+    animation-name: head;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes head {
+    0%{
+        color: blue;
+        font-size: 150%;
+    font-family: 'Style Script', cursive;
+    }
+    50%{
+        color: purple;
+        font-size: 250%;
+        font-family: 'MonteCarlo', cursive;
+    }
+    
+    100%{
+        font-size: 334%;
+        color: green;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+.heading{
+    font-size: 334%;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(0, 255, 119);
+}
+.detail{
+  color: coral;
+}
+.about{
+    color: orange;
+}
+.details{
+    color: rgb(32, 159, 209);
+}
