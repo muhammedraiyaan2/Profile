@@ -19,12 +19,12 @@
     100%{
         font-size: 334%;
         color: green;
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Libre Baskerville', serif;
     }
 }
 .heading{
     font-size: 334%;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Libre Baskerville', serif;
     color: rgb(0, 255, 119);
 }
 .detail{
@@ -58,7 +58,7 @@
     100%{
         font-size: 23px;
         color: green;
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Libre Baskerville', serif;
     }
 }
 }
