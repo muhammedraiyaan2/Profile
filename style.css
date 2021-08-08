@@ -36,3 +36,29 @@
 .details{
     color: rgb(32, 159, 209);
 }
+@media screen and (max-width:700px) {
+  .detail,.details,.about{
+     font-size: 12px;
+  }  
+  .heading{
+      font-size: 23px;
+  }
+  @keyframes head {
+    0%{
+        color: blue;
+        font-size: 7.6px;
+    font-family: 'Style Script', cursive;
+    }
+    50%{
+        color: purple;
+        font-size: 11.5px;
+        font-family: 'MonteCarlo', cursive;
+    }
+    
+    100%{
+        font-size: 23px;
+        color: green;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+}
