@@ -36,8 +36,15 @@
 .details{
     color: rgb(32, 159, 209);
 }
+a{
+    color: rgb(32, 159, 209);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 @media screen and (max-width:700px) {
-  .detail,.details,.about{
+  .detail,.details,.about,a{
      font-size: 12px;
   }  
   .heading{
