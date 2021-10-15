@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 .heading{
     text-align: center;
     animation-name: head;
@@ -25,16 +27,20 @@
 .heading{
     font-size: 334%;
     font-family: 'Libre Baskerville', serif;
-    color: rgb(0, 255, 119);
+    color: rgb(101, 101, 255);
 }
 .detail{
   color: coral;
 }
 .about{
     color: orange;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 .details{
     color: rgb(32, 159, 209);
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
 }
 a{
     color: rgb(32, 159, 209);
