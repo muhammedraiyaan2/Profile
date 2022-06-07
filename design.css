@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+}
+.container{
+    background-image: -webkit-linear-gradient(0deg, #7167ff 0%, #ffaa88 100%);
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    font-style: bold;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-image: -webkit-linear-gradient(0deg, #7167ff 0%, #ffaa88 100%);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 0.7rem;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 3rem;
+    align-items: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.li-right{
+    font-family: "Oxygen", sans-serif;
+}
+.head{
+    font-size: 2rem;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-style: bold;
+    letter-spacing: 2px;
+}
+.nav-right{
+    margin-left: 40vw;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    background:white;
+    justify-content: center;
+    border-radius: 1rem;
+    margin-top: 5rem;
+    width: 80vw;
+    height: 93vh;
+    box-shadow: 1px 1px 20px grey;
+}
+.flex{
+    display: flex;
+}
+.man{
+    margin: 1rem;
+    height: 85vh;
+    width: 45vw;
+}
+.hello{
+    margin-top: 10vh;
+    font-size: 1rem;
+    margin-left: 8vw;
+    font-weight: 100;
+}
+.name{
+    margin: 1rem 7rem;
+    font-size: 3rem;
+    font-family: "Oxygen", sans-serif;
+}
+.stack{
+    margin: 1rem 7rem;
+    font-size: 1.2rem;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.short-about{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 7rem;
+    font-family: monospace;
+    color: gray;
+}
+.gray{
+    color: gray;
+}
+.icon-about{
+    font-size: 2rem;
+    height: 1rem;
+    width: 1rem;
+    color: #ffaa88;
+}
+.icon-about2{
+    font-size: 1.08rem;
+}
